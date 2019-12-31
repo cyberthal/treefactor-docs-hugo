@@ -1,0 +1,16 @@
++++
+title = "Setup"
+date = 2019-12-27T04:25:12+08:00
+weight = 1
+chapter = true
++++
+
+* Setup
+  :PROPERTIES:
+  :CUSTOM_ID: setup
+  :END:
+
+*** Installation and configuration
+    :PROPERTIES:
+    :CUSTOM_ID: installation-and-configuration
+    :END:

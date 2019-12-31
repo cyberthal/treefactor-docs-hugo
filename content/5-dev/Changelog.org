@@ -1,0 +1,39 @@
++++
+title = "Changelog"
+weight = 2
+chapter = false
++++
+
+** 3.0.0
+   :PROPERTIES:
+   :CUSTOM_ID: section
+   :END:
+
+Backwards-compatibility-breaking namespace changes.\\
+Comply with MELPA requirements.\\
+Bugfixes.
+
+** 2.0.0
+   :PROPERTIES:
+   :CUSTOM_ID: section-1
+   :END:
+
+Backwards-compatibility-breaking namespace changes.\\
+Comply with MELPA requirements.\\
+Bugfixes.
+
+** 1.0.0
+   :PROPERTIES:
+   :CUSTOM_ID: section-2
+   :END:
+
+Backwards-compatibility-breaking namespace changes.\\
+Comply with MELPA requirements.\\
+Bugfixes.
+
+** 0.0.1
+   :PROPERTIES:
+   :CUSTOM_ID: section-3
+   :END:
+
+Pre-release.

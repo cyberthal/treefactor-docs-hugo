@@ -1,0 +1,26 @@
++++
+title = "Dev info"
+weight = 5
+chapter = false
++++
+
+** Repo and version
+   :PROPERTIES:
+   :CUSTOM_ID: repo-and-version
+   :END:
+
+This site is up-to-date for Treefactor version 3.0.2
+
+The code for this site is hosted at
+[[https://github.com/cyberthal/treefactor-docs][Github]].
+
+** Credits
+   :PROPERTIES:
+   :CUSTOM_ID: credits
+   :END:
+
+[[http://brainstormsw.com][BrainStorm]] for proving the concept of rapid
+iterative inductive refiling.
+
+Riscy and Alphapapa for
+[[https://github.com/melpa/melpa/pull/6388][MELPA code review]].

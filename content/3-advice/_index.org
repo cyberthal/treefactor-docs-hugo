@@ -1,0 +1,15 @@
++++
+title = "Advice"
+weight = 3
+chapter = true
++++
+
+* Advice
+  :PROPERTIES:
+  :CUSTOM_ID: advice
+  :END:
+
+*** Do not skip
+    :PROPERTIES:
+    :CUSTOM_ID: do-not-skip
+    :END:

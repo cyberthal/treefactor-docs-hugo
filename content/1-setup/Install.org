@@ -1,0 +1,28 @@
+---
+title: "Install"
+weight: 1
+---
+
+Treefactor's code is on
+[[https://github.com/cyberthal/treefactor][Github]].
+
+** MELPA
+   :PROPERTIES:
+   :CUSTOM_ID: melpa
+   :END:
+
+If you installed from MELPA, you're done.
+
+** Manual
+   :PROPERTIES:
+   :CUSTOM_ID: manual
+   :END:
+
+Put this file in your load-path:\\
+treefactor.el
+
+Put this in your init file:
+
+#+BEGIN_EXAMPLE
+  (require 'treefactor)
+#+END_EXAMPLE
