@@ -11,7 +11,7 @@ Text goes into Inbox.org, and files go into 0-Inbox/.
 
 Here's a demo gif:
 
-![](Up-Zinaries/tro-refile-up-2019-11-24-02--32-12.gif "treefactor-up demo")
+![](/images/tro-refile-up-2019-11-24-02--32-12.gif "treefactor-up demo")
 
 What you just saw:
 

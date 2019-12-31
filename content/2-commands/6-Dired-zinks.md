@@ -1,6 +1,6 @@
 ---
 title: "org-dired-zinks"
-weight: 5
+weight: 6
 ---
 
 treefactor-org-dired-zinks is a minor Org convenience command.
@@ -15,6 +15,6 @@ The file name was originally Links.org. But when sorting in alphabetical order, 
 
 Here's a gif demo:
 
-![](Org-dired-zinks-Zinaries/dired-zinks--output-2019-09-07-00.gif "dired-zinks demo")
+![](/images/dired-zinks--output-2019-09-07-00.gif "dired-zinks demo")
 
 If the directory needs to link to related directories in other parts of the tree, Zinks.org is a good place to store those links.

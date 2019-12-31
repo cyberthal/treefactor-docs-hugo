@@ -21,7 +21,7 @@ When manipulating outlines, always use a Git repo. Magit makes this easy.
 
 Autosave is a less reliable solution when filenames, paths and content are in flux due to Treefactor sorting. Don't rely on it.
 
-**Important**: Read the "Inbox.org template - keep transit heading level consistent!" section on the [Customization](Customization.html) page. It explains how to avoid accidentally misfiling headings under unrelated parents. Step-parents can be cruel!
+**Important**: Read the "Inbox.org template - keep transit heading level consistent!" section on the [Configure](/1-setup/configure/) page. It explains how to avoid accidentally misfiling headings under unrelated parents. Step-parents can be cruel!
 
 ## Recovery
 

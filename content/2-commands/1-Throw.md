@@ -9,7 +9,7 @@ Imagine that the next window holds a row of boxes. You pick up the object at poi
 
 In this gif demo, I throw Org headings to different directories in a Dired buffer.
 
-![](Throw-Zinaries/heading-refiling--random-nouns--output-2019-09-06-01.gif "Throw-Zinaries/heading-refiling--random-nouns")
+![](/images/Throw/heading-refiling--random-nouns--output-2019-09-06-01.gif "Throw-Zinaries/heading-refiling--random-nouns")
 
 treefactor-throw refiles headings into an Inbox.org file in the chosen directory. If the directory doesn't already have an Inbox.org file, one is created.
 
@@ -19,17 +19,17 @@ treefactor-throw also works on outline headings in other text modes. If the text
 
 treefactor-throw handles files the same way as text. Here's a demo gif:
 
-![](Throw-Zinaries/file-refiling--random-nouns--output-2019-09-06-15.gif "file refiling--random nouns")
+![](/images/Throw/file-refiling--random-nouns--output-2019-09-06-15.gif "file refiling--random nouns")
 
 treefactor-throw puts files in a /0-Inbox directory under the chosen directory, so that new files aren't mixed up with pre-existing files.
 
 Lastly, treefactor-throw can throw text to outline headings. Here's a demo gif. This time I'm throwing lines of text instead of outline headings, just for variety:
 
-![](Throw-Zinaries/refiling-to-outline--random-nouns--output-2019-09-06-20.gif "refiling to outline--random nouns demo")
+![](/images/Throw/refiling-to-outline--random-nouns--output-2019-09-06-20.gif "refiling to outline--random nouns demo")
 
 The lines are double-spaced and placed under the selected outline heading:
 
-![](Throw-Zinaries/refiling-to-outline--random-nouns--results--output-2019-09-06-20.gif "refiling to outline--random nouns--results demo")
+![](/images/Throw/refiling-to-outline--random-nouns--results--output-2019-09-06-20.gif "refiling to outline--random nouns--results demo")
 
 Double-spacing prevents the user from accidentally appending a line to an existing unrelated paragraph of text.
 

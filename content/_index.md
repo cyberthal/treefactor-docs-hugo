@@ -19,7 +19,7 @@ Treefactor conceptualizes the directory tree and outlines within files as one un
 
 Rather than trying to refile from the current location to the final destination in one leap, Treefactor uses inductive incremental refiling. It rapidly refiles many objects in the right direction, one step at a time.
 
-(If the above introduction was too abstract, and you're experienced with Emacs, then skip ahead to the "Commands" section. Then come back here.)
+(If the above introduction was too abstract, and you're experienced with Emacs, then skip ahead to the [Commands](/2-commands/) section. Then come back here.)
 
 ### Focused on Org and Dired
 

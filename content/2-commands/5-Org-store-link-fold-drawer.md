@@ -9,4 +9,4 @@ Normally, when Org creates a UID link with org-store-link, Org creates a PROPERT
 
 Here's a gif demo:
 
-![](Org-store-link-fold-drawer-Zinaries/store-link-fold-drawer--omm--output-2019-09-07-00.gif "store-link-fold-drawer--omm demo")
+![](/images/store-link-fold-drawer--omm--output-2019-09-07-00.gif "store-link-fold-drawer--omm demo")

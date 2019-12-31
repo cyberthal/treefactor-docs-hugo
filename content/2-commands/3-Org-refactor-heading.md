@@ -21,7 +21,7 @@ To keep track of your progress, delete irrelevant text. No need to worry about l
 
 Here's a gif demo:
 
-![](Org-refactor-heading-Zinaries/trs-org-refactor-heading--jabberwocky--output-2019-09-07-02.gif "treefactor-org-refactor-heading Jabberwocky demo")
+![](/images/trs-org-refactor-heading--jabberwocky--output-2019-09-07-02.gif "treefactor-org-refactor-heading Jabberwocky demo")
 
 The gif example heading was very simple. Anybody can break a poem into stanzas without the help of a special function. But we all have complex textwalls in our lives that beg for analysis. This function reduces the friction of doing so, encouraging the user to regularly analyze his complex headings into manageable form.
 
