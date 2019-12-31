@@ -93,3 +93,4 @@ Temporary Items
 # End of https://www.gitignore.io/api/hugo,macos,emacs
 
 /static/images/
+Upload.sh
