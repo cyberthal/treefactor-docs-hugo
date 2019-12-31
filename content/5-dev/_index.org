@@ -12,7 +12,7 @@ chapter = false
 This site is up-to-date for Treefactor version 3.0.2
 
 The code for this site is hosted at
-[[https://github.com/cyberthal/treefactor-docs][Github]].
+[[https://github.com/cyberthal/treefactor-docs-hugo][Github]].
 
 ** Credits
    :PROPERTIES:
