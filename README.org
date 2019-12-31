@@ -1,0 +1,5 @@
+Treefactor is an Emacs package.
+
+The documentation for Treefactor is hosted at https://treefactor-docs.nfshost.com/
+
+This repo contains the documentation for Treefactor. Content is written in Org mode, and built with Hugo and the Learn theme.
