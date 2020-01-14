@@ -93,9 +93,13 @@ to manage my Textmind, a 1/3 gigabyte text exobrain Git repo that can
 comfortably process 10k words per day. Daily intake varies between 1-20k
 words, with 2.5k a typical number. I read a lot, and Treefactor has no
 trouble keeping up. Other personal information managers always choked on
-the volume. Here is a [[https://gitgud.io/Bibliodemos/textmind-template][template]] you can use to start your own Textmind.
+the volume.
 
 With great power comes great responsibility. Treefactor is a power tool
 that quickly moves text and files around the directory tree. Please
 learn how it works before using it in production, or you may misfile
 important information.
+
+** Textmind
+
+For more about Textmind, read its [[https://cyberthal-docs.nfshost.com/textmind/][documentation]].
