@@ -8,7 +8,7 @@ theme = "hugo-theme-learn"
 home = [ "HTML", "RSS", "JSON"]
 
 [params]
-  editURL = "https://github.com/cyberthal/treefactor-docs-hugo/tree/master/content"
+  editURL = "https://github.com/cyberthal/treefactor-docs-hugo/tree/master/content/"
   author = "Cyberthal"
   description = "Treefactor documentation"
   showVisitedLinks = true
