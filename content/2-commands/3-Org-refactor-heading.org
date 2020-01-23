@@ -3,8 +3,12 @@ title: "org-refactor-heading"
 weight: 3
 ---
 
+** Scope
+
 treefactor-org-refactor-heading is a minor Org convenience function. It
 helps you refactor a heading.
+
+** Use case
 
 Imagine you have a complex heading that covers multiple topics in a
 disorganized way.
@@ -16,6 +20,8 @@ A classic example would be a chronological record of a sprint. You want
 to preserve the chronological order for future reference, but you also
 want to break it down into tasks and categorized reference matter.
 
+** Effect
+
 treefactor-org-refactor-heading creates a copy of the original heading
 and appends " | REFACTORED" to the title. It's an historical record now.
 You don't need to refactor it again.
@@ -23,6 +29,8 @@ You don't need to refactor it again.
 Then treefactor-org-refactor-heading opens a new window with an indirect
 buffer showing an "INBOX" heading. This is where you will put the new
 subheadings.
+
+** Exploit
 
 Now you can grab chunks of the original heading in the first window, and
 move them to the second window. The goal is to improve the organization;
@@ -33,6 +41,8 @@ To keep track of your progress, delete irrelevant text. No need to worry
 about losing data, since everything's preserved in the " | REFACTORED"
 archive copy.
 
+** Demo
+
 Here's a gif demo:
 
 [[/images/trs-org-refactor-heading--jabberwocky--output-2019-09-07-02.gif]]
@@ -42,6 +52,13 @@ stanzas without the help of a special function. But we all have complex
 textwalls in our lives that beg for analysis. This function reduces the
 friction of doing so, encouraging the user to regularly analyze his
 complex headings into manageable form.
+
+Here's a video that demonstrates this point, using notes taken about a video
+game called "Castle of the Winds":
+
+{{< youtube Wz28GaAtEhY >}}
+
+** Contra Org
 
 Org provides a org-archive-subtree command, but it doesn't work well
 with the Treefactor workflow. Org moves archived subtrees to a different
