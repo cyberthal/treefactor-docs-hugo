@@ -1,6 +1,6 @@
 ---
 title: "org-dired-zinks"
-weight: 6
+weight: 11
 ---
 
 treefactor-org-dired-zinks is a minor Org convenience command.

@@ -1,0 +1,14 @@
+---
+title: "rename-next-heading"
+weight: 6
+---
+
+rename-next-heading advances to the next heading, to the end of the line. It narrows focus to that heading.
+
+This lets you read the content of the heading, erase the old heading title if necessary, and write a new one.
+
+The command is useful when batch naming headings, and can be called repeatedly with <M-x RET>.
+
+It naturally follows org-insert-heading-divider.
+
+Dividing separating headings from naming headings makes both tasks much easier. Separating headings requires thinking about the edges between two subjects, whereas naming headings requires focusing on the center of one subject. Doing both at once is hard!

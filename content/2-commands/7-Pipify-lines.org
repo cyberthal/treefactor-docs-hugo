@@ -1,0 +1,35 @@
+---
+title: "pipify-lines"
+weight: 7
+---
+
+pipify-lines converts consecutive lines into a single line separated by pipes.
+
+Given this text:
+
+#+begin_quote
+apple \\
+one per day \\
+doctor \\
+keeps away
+#+end_quote
+
+Put point on "apple" and run pipify-lines three times. The result is:
+
+#+begin_quote
+apple | one per day | doctor | keeps away
+#+end_quote
+
+This isn't shorter than the complete sentence, "An apple a day keeps the doctor away." So it's a silly example.
+
+However, when naming a complex heading that covers multiple subjects, the pipify naming style succinctly conveys the gist, whereas sentences take multiple lines, resulting in an ugly, hard-to-read heading.
+
+The pipify method is convenient because Org makes it easy to reorder a list of lines. Use e.g. <M-S-up> org-shiftmetaup.
+
+Easily name headings by breaking up naming into three steps:
+
+1. Brainstorm relevant terms, one per line
+2. Reorder the lines
+3. Pipify
+
+Skipping complete sentences saves effort.

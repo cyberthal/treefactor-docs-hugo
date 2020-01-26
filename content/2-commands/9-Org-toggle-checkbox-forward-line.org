@@ -1,0 +1,14 @@
+---
+title: "org-toggle-checkbox-forward-line"
+weight: 9
+---
+
+org-toggle-checkbox-forward-line toggles the checkbox at point and advances one line.
+
+It takes a common two-step action and makes it one. I suggest binding it to <C-S-n>.
+
+Checklists are [[https://www.newyorker.com/magazine/2007/12/10/the-checklist][important]]. Put a [[https://www.amazon.com/dp/B07LC9KDP5/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1][tiny habit]] at the start. Processing a daylog requires a checklist.
+
+Binding this command to a single keychord improves checklist adherence and checklist length tolerance.
+
+Imagine never again taking a shower with only hand towels nearby.

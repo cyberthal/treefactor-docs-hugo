@@ -1,6 +1,6 @@
 ---
 title: "refresh-org-search-scope"
-weight: 8
+weight: 13
 ---
 
 refresh-org-search-scope removes bad paths from the Org search scope and recursively adds Org files from the designated directories.

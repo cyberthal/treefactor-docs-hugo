@@ -1,6 +1,6 @@
 ---
 title: "clear-org-search-scope"
-weight: 7
+weight: 12
 ---
 
 clear-org-search-scope removes all files from the Org search scope.

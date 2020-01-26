@@ -1,6 +1,6 @@
 ---
 title: "org-store-link-fold-drawer"
-weight: 5
+weight: 10
 ---
 
 treefactor-org-store-link-fold-drawer is a minor convenience command for

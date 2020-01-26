@@ -1,0 +1,29 @@
+---
+title: "org-timestamp-now-inactive"
+weight: 8
+---
+
+org-timestamp-now-inactive inserts an inactive timestamp showing the current time: [2020-01-26 Sun 15:47]
+
+An active timestamp looks like this, and will make its heading appear in the Org Agenda: <2020-01-26 Sun 15:48>
+
+Active timestamps must be limited to avoid clogging the Agenda. However, the only cost of an inactive timestamp is the keystroke to delete it later: <C-S-backspace> kill-whole-line.
+
+Daylogging requires inserting an inactive timestamp after every entry. I bind this command to H-SPC since I use it so often:
+
+#+begin_quote my daylog
+wrote documentation page on org-timestamp-now-inactive \\
+pondered the meaning of life \\
+[2020-01-26 Sun 15:56]
+
+these timestamps barely cost extra effort \\
+because they're part of an existing paragraph \\
+and Org commands can manipulate paragraphs of arbitrary length \\
+thus appending an extra line costs nothing \\
+[2020-01-26 Sun 15:57]
+
+"Know thyself," said Apollo \\ 
+Time is the non-renewable resource. \\
+What is more essential to self-knowledge, than knowing how one's time was spent? \\
+[2020-01-26 Sun 16:04]
+#+end_quote

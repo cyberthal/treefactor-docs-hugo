@@ -1,0 +1,18 @@
+---
+title: "org-insert-heading-divider"
+weight: 5
+---
+
+Imagine you are breaking up a long essay into headings. You will have to repeatedly use <M-RET RET> org-insert-heading, of course. But you will probably also repeatedly use some other editing commands, to adjust whitespace and to advance through the text.
+
+org-insert-heading-divider simplifies this task. It inserts the heading, adds whitespace before it, and advances two paragraphs forward.
+
+It always adds two lines before the heading. This may be more whitespace than is necessary, but never less. If there is extra whitespace, other Treefactor commands such as =throw= and =up= will remove it. So don't worry about it.
+
+(Note that when Org inserts a level-one heading, it automatically deletes blank lines above that heading.)
+
+org-insert-heading-divider lets you quickly place headings dividers in a textwall. Advance through paragraphs with <C-down> org-forward-paragraph and repeatedly call org-insert-heading-divider with M-x RET.
+
+Finding the divisions in a textwall is so easy that you can usually just skim it. Treefactor likes lots of easy tiny decisions.
+
+Don't ponder. If a text is too complicated, use org-refactor-heading instead.
