@@ -12,6 +12,14 @@ Use [[https://emacs.stackexchange.com/questions/51755/org-mode-link-files-with-i
 
 To summarize the above link: Customize org-id-link-to-org-use-id to create-if-interactive.
 
+I also needed to add this line in my Spacemacs config:
+
+#+begin_src elisp
+(with-eval-after-load 'org
+;; Use global IDs (for unique links)
+(require 'org-id))
+#+end_src
+
 ** Dired
    :PROPERTIES:
    :CUSTOM_ID: dired
