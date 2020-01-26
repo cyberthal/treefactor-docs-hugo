@@ -1,0 +1,16 @@
+---
+title: "refresh-org-search-scope"
+weight: 8
+---
+
+refresh-org-search-scope removes bad paths from the Org search scope and recursively adds Org files from the designated directories.
+
+If you've changed lots of paths in your Org search scope, then Org probably won't be able to find those files anymore, unless you restart Emacs or run this command.
+
+Here's what it does exactly, step by step:
+
+1. Run clear-org-search-scope.
+
+2. Recursively add the Org files in the treefactor-org-agenda-dir to the variable org-agenda-files.
+
+3. Recursively add the Org files in the treefactor-org-id-extra-dir to the variable org-agenda-text-search-extra-files.

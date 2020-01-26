@@ -74,3 +74,21 @@ refile without thinking about it:
 
 I use a Microsoft Natural Ergonomic Keyboard. I set the Appkey to Hyper
 and the Winkey to Super.
+
+** Org search scope
+
+Treefactor permits rapid rearrangement of files and directories. This violates Org's assumption that files and directories will remain mostly unchanged during an Emacs session. Org doesn't notice path changes within its search scope. This is dangerous when relying on Org searches.
+
+The solution is to refresh Org's knowledge of the paths within its search scope. Normally a refresh only happens when Emacs starts. Treefactor provides commands to refresh at will.
+
+First, tell Treefactor which directories to search. Customize the variables =treefactor-org-agenda-dir= and =treefactor-org-id-extra-dir=. The former contains Org [[https://orgmode.org/manual/Agenda-files.html][agenda files]].
+The latter contains Org files to be searched for IDs, besides the agenda files.
+
+Why have two different directories for searches? Because agenda searches are much slower than ID searches. Store sparse agenda headings in the agenda directory, and bulk text in the ID directory.
+
+ID searches are fast because link paths are cached. Run a nightly ID search to keep the ID registry updated, for lagless ID links. To refresh the ID registry, search for a fake link. Making a fake link is easy. Just make a real link, then replace the real ID with a fake one, like so:
+
+#+begin_src org
+[[id:D0F1C51F-BD4A-4278-8F46-ACBD6A35B1B3][real link]]
+[[id:fake][fake link]]
+#+end_src

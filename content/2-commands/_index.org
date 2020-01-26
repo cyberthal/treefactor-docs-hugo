@@ -19,3 +19,5 @@ This chapter demonstrates and explains the following commands:
 - org-store-link-fold-drawer - store an Org link and hide the drawer
 - org-dired-zinks - store an Org link in a file, titled with relative
   path
+- clear-org-search-scope removes all files from the Org search scope
+- refresh-org-search-scope refreshes Org's list of file paths within the Org search scope
