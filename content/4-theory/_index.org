@@ -40,7 +40,7 @@ Imprecise inductive filing is more error-tolerant. If you put your
 screwdriver with your silverware, you will probably notice the mistake
 when unpacking the kitchen box.
 
-What is it imprecise? When throwing objects with Treefactor, you usually
+Why is it imprecise? When throwing objects with Treefactor, you usually
 don't see exactly where they end up. For example, when throwing to a
 file, you don't see the parent heading. When throwing to an outline, you
 don't see the adjacent child headings. This is similar to throwing an
