@@ -10,6 +10,8 @@ weight: 2
 
 Use [[https://emacs.stackexchange.com/questions/51755/org-mode-link-files-with-ids-and-not-filenames][org-id]] for global link UUIDs that are not path-dependent. Otherwise links will be fragile and temporary.
 
+To summarize the above link: Customize org-id-link-to-org-use-id to create-if-interactive.
+
 ** Dired
    :PROPERTIES:
    :CUSTOM_ID: dired
