@@ -8,17 +8,7 @@ weight: 2
    :CUSTOM_ID: org
    :END:
 
-Use org-id for global link UIDs that are not path-dependent.
-
-Treefactor facilitates creating many Org files in deeply nested
-directories. This can make it challenging to construct an org-agenda
-files list. See here to load org agenda files recursively:
-[[https://stackoverflow.com/questions/17215868/recursively-adding-org-files-in-a-top-level-directory-for-org-agenda-files-take][Recursively
-adding .org files in a top-level directory for org-agenda-files takes a
-long time - StackOverflow]]
-
-It also helps to have a function that refreshes your org agenda file
-list, if you've altered paths in that directory.
+Use [[https://emacs.stackexchange.com/questions/51755/org-mode-link-files-with-ids-and-not-filenames][org-id]] for global link UUIDs that are not path-dependent. Otherwise links will be fragile and temporary.
 
 ** Dired
    :PROPERTIES:
