@@ -13,4 +13,4 @@ Here's what it does exactly, step by step:
 
 2. Recursively add the Org files in the treefactor-org-agenda-dir to the variable org-agenda-files.
 
-3. Recursively add the Org files in the treefactor-org-id-extra-dir to the variable org-agenda-text-search-extra-files.
+3. Recursively add the Org files in the treefactor-org-id-extra-dir to the variable org-id-extra-files.
